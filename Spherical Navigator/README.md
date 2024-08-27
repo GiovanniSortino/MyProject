@@ -1,4 +1,3 @@
-#Spherical Navigator 
 Spherical Navigator è un progetto di elaborazione video che converte i contenuti video sferici in una vista planare, permettendo la navigazione e 
 l'interazione in tempo reale. Il progetto include un'interfaccia personalizzata con controlli di riproduzione/pausa, una barra di progresso del video, 
 e regolazioni dinamiche di yaw, pitch e zoom per esplorare diverse prospettive all'interno del video. 
