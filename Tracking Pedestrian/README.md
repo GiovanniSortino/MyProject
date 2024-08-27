@@ -17,6 +17,8 @@ Il sistema gestisce entrate e uscite delle persone dal frame, assegnando nuove i
 4. Visualizzazione dei risultati:
 Le bounding box delle persone rilevate vengono visualizzate su ogni frame con un'etichetta identificativa. Viene utilizzata la libreria matplotlib per la visualizzazione.
 
+Il progetto può sicuramente essere migliorato evitando molti id switch ed evitare l'assegnamento degli'id cosi alti
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 This project implements a system for tracking people in videos using deep learning and computer vision techniques. The code uses pre-trained models to detect objects in images, extract visual features, and assign unique identities to people detected in the video, even if they enter and exit the frame.
 
@@ -31,3 +33,5 @@ The extracted features are used to calculate the cosine similarity between the d
 The system manages people entering and leaving the frame, assigning new identities to people not previously tracked and removing those who have left the video.
 
 4. Visualization of results: The bounding boxes of the detected people are protected on each frame with an identifying label. The matplotlib library is used for visualization.
+
+The project can definitely be improved by avoiding many id switches and avoiding assigning such high id's.
