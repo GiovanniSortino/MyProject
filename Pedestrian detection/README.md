@@ -26,6 +26,13 @@ Confronta le bounding box rilevate con quelle annotate per calcolare True Positi
 8. Visualizzazione dei Risultati:
 Confronta e visualizza le bounding box individuate dal modello SVM, dall'algoritmo di rilevamento di persone predefinito di OpenCV, e le annotazioni originali su un'immagine di test.
 
+Il progetto ha sicuramente qualcosa da migliorare, in quanto l'accuratezza non è ottimale, come si evince dai risultati. Tuttavia, rappresenta una buona base di partenza.
+Le immagini mostrano:
+
+Rosso: le bounding box dei pedoni precedentemente annotate
+Verde: le bounding box dei pedoni trovate dal detector di OpenCV
+Blu: le bounding box dei pedoni trovate dal mio modello
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This project implements a pedestrian detector based on an SVM (Support Vector Machine) model trained using HOG (Histogram of Oriented Gradients) descriptors. The code loads a dataset of positive and negative images, preprocesses the images, and calculates the HOG descriptors for training the model. Below is a description of the main components and functionalities of the code:
 
@@ -54,3 +61,10 @@ Compares the detected bounding boxes with the annotated ones to calculate True P
 
 8. Results Visualization:
 Compares and visualizes the bounding boxes detected by the SVM model, the default OpenCV people detection algorithm, and the original annotations on a test image.
+
+The project definitely has room for improvement, as the accuracy is not optimal, as seen in the results. However, it serves as a solid foundation.
+The images show:
+
+Red: the previously annotated pedestrian bounding boxes
+Green: the pedestrian bounding boxes detected by the OpenCV detector
+Blue: the pedestrian bounding boxes detected by my model
